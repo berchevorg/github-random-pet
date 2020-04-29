@@ -12,12 +12,11 @@ terraform {
   
 variable "region" {
   description = "AWS default region"
-  default     = "us-east-2"
+  default     = "us-east-1"
 }
 
 variable "ami" {
   description = "AWS ami according to the region"
-  default     = "ami-056569351c9d4c8cf"
 }
 
 variable "instance_type" {
