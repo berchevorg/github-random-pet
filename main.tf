@@ -10,6 +10,7 @@ terraform {
 
 
   
+
 variable "region" {
   description = "AWS default region"
   default     = "us-east-1"
